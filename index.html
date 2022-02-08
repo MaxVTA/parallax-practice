@@ -1,7 +1,12 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Fonts Montserrat & Rowdies-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Rowdies:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/df4e552be9.js" crossorigin="anonymous"></script>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,10 +14,121 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Parallax Practice</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <!--Navbar-->
+    <nav class="navbar navbar-light bg-transparent position-fixed w-100">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Road Trip</a>
+        <button class="navbar-toggler rounded-circle bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav w-100 justify-content-end me-auto mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#parallaxone">Car 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#parallaxtwo">Car 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#parallaxthree">Car 3</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#parallaxfour">Car 4</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--jumbotron opener-->
+    <div class="jumbotron d-flex flex-column justify-content-center align-items-center" style="background-image: url('IMG/meme.webp');" id="jumbotron">
+      
+      <h1 class="display-1 text-white fw-bold textone mt-auto opacity-75 p-3" id="header"><br>THIS IS ROADTRIP</h1>
+      <div class="button_container mt-auto mb-4">
+        <a class="btn rounded-circle btn-md bg-secondary bg-opacity-50" href="#parallaxone"><i class="fas fa-chevron-down fa-lg mt-2 text-white"></i></a>
+      </div>
+    </div>
+  </div>
+  <!--Paralax-->
+  <div class="parallax p-4 container-fluid" id="parallaxone">
+    <div class="jumbotron d-flex flex-column justify-content-center align-items-center">
+      <div class="d-flex flex-column align-items-center mt-auto bg-dark p-5 bg-opacity-75">
+        <h1 class="title_text display-6 fw-bold text-white text-uppercase">CAR 1</h1>
+        <p class="fs-4 text-muted">01.01.01</p>
+        <p class="fs-5 text-muted mb-4">To be, or not to be: that is the question: whether 'tis nobler in the mind to suffer the slings and arrows of outrageous fortune, or to take arms against a sea of troubles, and by opposing end them? To die: to sleep; no more; and, by a sleep to say we end the heart-ache and the thousand natural shocks that flesh is heir to, 'tis a consummation devoutly to be wish'd. To die, to sleep; to sleep: perchance to dream: ay, there's the rub; for in that sleep of death what dreams may come when we have shuffled off this mortal coil, must give us pause. There's the respect that makes calamity of so long a life; for who would bear the whips and scorns of time, the oppressor's wrong, the proud man's contumely, the pangs of dispriz'd love, the law's delay, the insolence of office, and the spurns that patient merit of the unworthy takes, when he himself might his quietus make with a bare bodkin? Who would fardels bear, to grunt and sweat under a weary life, but that the dread of something after death, the undiscover'd country from whose bourn no traveller returns, puzzles the will, and makes us rather bear those ills we have, than fly to others that we know not of? Thus consience doth make cowards of us all; and thus the native hue of resolution is sicklied o'er with the pale cast of thought, and enterprises of great pith and moment with this regard their currents turn awry, and lose the name of action.</p>
+        <button class="btn btn-lg btn-outline-secondary text-white mt-2">LEARN MORE</button>
+      </div>
+
+      <div class="button_container mt-auto"></div>
+        <a class="btn rounded-circle btn-md bg-secondary bg-opacity-50" href="#parallaxtwo"><i class="fas fa-chevron-down fa-lg mt-2 text-white"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax p-4 container-fluid" id="parallaxtwo">
+    <div class="jumbotron d-flex flex-column justify-content-center align-items-center">
+      <div class="d-flex flex-column align-items-center mt-auto bg-dark p-5 bg-opacity-75">
+        <h1 class="title_text display-6 fw-bold text-white text-uppercase">CAR 2</h1>
+        <p class="fs-4 text-muted">01.02.01</p>
+        <p class="fs-5 text-muted mb-4">To be, or not to be: that is the question: whether 'tis nobler in the mind to suffer the slings and arrows of outrageous fortune, or to take arms against a sea of troubles, and by opposing end them? To die: to sleep; no more; and, by a sleep to say we end the heart-ache and the thousand natural shocks that flesh is heir to, 'tis a consummation devoutly to be wish'd. To die, to sleep; to sleep: perchance to dream: ay, there's the rub; for in that sleep of death what dreams may come when we have shuffled off this mortal coil, must give us pause. There's the respect that makes calamity of so long a life; for who would bear the whips and scorns of time, the oppressor's wrong, the proud man's contumely, the pangs of dispriz'd love, the law's delay, the insolence of office, and the spurns that patient merit of the unworthy takes, when he himself might his quietus make with a bare bodkin? Who would fardels bear, to grunt and sweat under a weary life, but that the dread of something after death, the undiscover'd country from whose bourn no traveller returns, puzzles the will, and makes us rather bear those ills we have, than fly to others that we know not of? Thus consience doth make cowards of us all; and thus the native hue of resolution is sicklied o'er with the pale cast of thought, and enterprises of great pith and moment with this regard their currents turn awry, and lose the name of action.</p>
+        <button class="btn btn-lg btn-outline-secondary text-white mt-2">LEARN MORE</button>
+      </div>
+
+      <div class="button_container mt-auto"></div>
+        <a class="btn rounded-circle btn-md bg-secondary bg-opacity-50" href="#parallaxthree"><i class="fas fa-chevron-down fa-lg mt-2 text-white"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax p-4 container-fluid" id="parallaxthree">
+    <div class="jumbotron d-flex flex-column justify-content-center align-items-center">
+      <div class="d-flex flex-column align-items-center mt-auto bg-dark p-5 bg-opacity-75">
+        <h1 class="title_text display-6 fw-bold text-white text-uppercase">CAR 3</h1>
+        <p class="fs-4 text-muted">01.03.01</p>
+        <p class="fs-5 text-muted mb-4">To be, or not to be: that is the question: whether 'tis nobler in the mind to suffer the slings and arrows of outrageous fortune, or to take arms against a sea of troubles, and by opposing end them? To die: to sleep; no more; and, by a sleep to say we end the heart-ache and the thousand natural shocks that flesh is heir to, 'tis a consummation devoutly to be wish'd. To die, to sleep; to sleep: perchance to dream: ay, there's the rub; for in that sleep of death what dreams may come when we have shuffled off this mortal coil, must give us pause. There's the respect that makes calamity of so long a life; for who would bear the whips and scorns of time, the oppressor's wrong, the proud man's contumely, the pangs of dispriz'd love, the law's delay, the insolence of office, and the spurns that patient merit of the unworthy takes, when he himself might his quietus make with a bare bodkin? Who would fardels bear, to grunt and sweat under a weary life, but that the dread of something after death, the undiscover'd country from whose bourn no traveller returns, puzzles the will, and makes us rather bear those ills we have, than fly to others that we know not of? Thus consience doth make cowards of us all; and thus the native hue of resolution is sicklied o'er with the pale cast of thought, and enterprises of great pith and moment with this regard their currents turn awry, and lose the name of action.</p>
+        <button class="btn btn-lg btn-outline-secondary text-white mt-2">LEARN MORE</button>
+      </div>
+
+      <div class="button_container mt-auto"></div>
+        <a class="btn rounded-circle btn-md bg-secondary bg-opacity-50" href="#parallaxfour"><i class="fas fa-chevron-down fa-lg mt-2 text-white"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax p-4 container-fluid" id="parallaxfour">
+    <div class="jumbotron d-flex flex-column justify-content-center align-items-center">
+      <div class="d-flex flex-column align-items-center mt-auto bg-dark p-5 bg-opacity-75">
+        <h1 class="title_text display-6 fw-bold text-white text-uppercase">CAR 4</h1>
+        <p class="fs-4 text-muted">01.04.01</p>
+        <p class="fs-5 text-muted mb-4">To be, or not to be: that is the question: whether 'tis nobler in the mind to suffer the slings and arrows of outrageous fortune, or to take arms against a sea of troubles, and by opposing end them? To die: to sleep; no more; and, by a sleep to say we end the heart-ache and the thousand natural shocks that flesh is heir to, 'tis a consummation devoutly to be wish'd. To die, to sleep; to sleep: perchance to dream: ay, there's the rub; for in that sleep of death what dreams may come when we have shuffled off this mortal coil, must give us pause. There's the respect that makes calamity of so long a life; for who would bear the whips and scorns of time, the oppressor's wrong, the proud man's contumely, the pangs of dispriz'd love, the law's delay, the insolence of office, and the spurns that patient merit of the unworthy takes, when he himself might his quietus make with a bare bodkin? Who would fardels bear, to grunt and sweat under a weary life, but that the dread of something after death, the undiscover'd country from whose bourn no traveller returns, puzzles the will, and makes us rather bear those ills we have, than fly to others that we know not of? Thus consience doth make cowards of us all; and thus the native hue of resolution is sicklied o'er with the pale cast of thought, and enterprises of great pith and moment with this regard their currents turn awry, and lose the name of action.</p>
+        <button class="btn btn-lg btn-outline-secondary text-white mt-2">LEARN MORE</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container-fluid bg-danger p-5">
+      <div class="d-flex flex-column justify-content-center align-items-center p-4 mt-3">
+        <h2 class="display-6 fw-bold text-white">CONTACT</h2>
+        <!-- SOCIAL MEDIA ICONS -->
+        <div class="socials d-flex flex-row gap-4 p-5 mt-3">
+          <a class="btn rounded-circle btn-xl bg-white bg-opacity-25 text-white" href="https://twitter.com/?lang=en" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter fa-lg"></i></a>
+          <a class="btn rounded-circle btn-xl bg-white bg-opacity-25 text-white" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f fa-lg"></i></a>
+          <a class="btn rounded-circle btn-xl bg-white bg-opacity-25 text-white" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram fa-lg"></i></a>
+        </div>
+        <p>
+          <span class="text-white opacity-50">&copy; Untitled Design</span>
+          <a class="text-white" href="#">templated</a>
+          <span class="text-white opacity-50">Images</span>
+          <a class="text-white " href="https://unsplash.com">Unsplash.</a>
+        </p>
+      </div>
+    </div>
+
+  </footer>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
