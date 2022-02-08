@@ -30,17 +30,17 @@
 } 
 
 #parallaxone{
-    background-image: url(IMG/teslay.jpg);
+    background-image: url(/IMG/teslay.jpg);
 }
   
 #parallaxtwo{
-    background-image: url(IMG/teslas.jpg);
+    background-image: url(/IMG/teslas.jpg);
 }
   
 #parallaxthree{
-    background-image: url(IMG/teslax.jpg);
+    background-image: url(/IMG/teslax.png);
 }
   
 #parallaxfour{
-    background-image: url(IMG/cyber.jpeg);
+    background-image: url(/IMG/cyber.jpeg);
 }
