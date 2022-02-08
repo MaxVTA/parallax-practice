@@ -1,0 +1,46 @@
+.navbar-brand {
+    font-family: 'Rowdies', cursive;
+    position: flex;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    margin-left: 0%;
+    margin-right: 11%;
+    margin-top: 0.5%;
+  }
+
+.parallax {
+    /* The image used */
+    background-image: url("/IMG/tesla.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#jumbotron{
+    font-family: 'Montserrat', sans-serif;
+    padding: 7rem;
+
+} 
+
+#parallaxone{
+    background-image: url(IMG/teslay.jpg);
+}
+  
+#parallaxtwo{
+    background-image: url(IMG/teslas.jpg);
+}
+  
+#parallaxthree{
+    background-image: url(IMG/teslax.jpg);
+}
+  
+#parallaxfour{
+    background-image: url(IMG/cyber.jpeg);
+}
